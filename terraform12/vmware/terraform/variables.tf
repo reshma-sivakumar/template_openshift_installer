@@ -223,6 +223,10 @@ variable "pullsecret" {
   type = string
 }
 
+variable "mirroredregistry" {
+  type = string
+}
+
 variable "dhcp_ip_range_start" {
   default     = "192.168.1.2"
   type        = string
@@ -246,4 +250,3 @@ variable "dhcp_lease_time" {
   type        = string
   description = "Length of time to be assigned to a DHCP lease"
 }
-

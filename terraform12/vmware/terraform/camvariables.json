@@ -517,6 +517,17 @@
       "group_name": "openshift_container_platform_info"
     },
     {
+      "name": "mirroredregistry",
+      "label": "Mirror Registry domain",
+      "type": "string",
+      "description": "Mirror Registry domain.",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "group_name": "openshift_container_platform_info"
+    },
+    {
       "name": "vm_clone_timeout",
       "label": "Virtual Machine Clone Timeout",
       "type": "string",
